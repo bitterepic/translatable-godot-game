@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dq74va7ja2ajo"]
+
+[ext_resource type="Script" uid="uid://poitq8ruekbi" path="res://node_2d.gd" id="1_pq8q7"]
+
+[node name="Root" type="Node2D" unique_id=234999555]
+
+[node name="Label" type="Label" parent="." unique_id=1408150008]
+offset_left = 347.0
+offset_top = 144.0
+offset_right = 841.0
+offset_bottom = 402.0
+text = "Test Scene Label"
+
+[node name="Node2D" type="Node2D" parent="." unique_id=912350714]
+script = ExtResource("1_pq8q7")
