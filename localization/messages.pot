@@ -1,0 +1,31 @@
+# LANGUAGE translation for Translatable Game for the following files:
+# res://node_2d.gd
+# res://root.tscn
+# res://rust/src/rust_node.rs
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Translatable Game\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: node_2d.gd:8
+msgid "{character} picked up the {weapon}"
+msgstr ""
+
+#: node_2d.gd:9
+msgid "{character} picked up a weapon"
+msgid_plural "{character} picked up {count} weapons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: root.tscn
+msgid "Test Scene Label"
+msgstr ""
+
+msgid "Translatable Game"
+msgstr ""
