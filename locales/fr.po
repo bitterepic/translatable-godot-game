@@ -1,0 +1,37 @@
+# LANGUAGE translation for Translatable Game for the following files:
+# res://node_2d.gd
+# res://root.tscn
+# res://rust/src/rust_node.rs
+#
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Translatable Game\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: node_2d.gd:8
+msgid "{character} picked up the {weapon}"
+msgstr "{character} a récupéré le {weapon}"
+
+#: node_2d.gd:9
+msgid "{character} picked up a weapon"
+msgid_plural "{character} picked up {count} weapons"
+msgstr[0] "{character} a pris une arme"
+msgstr[1] ""
+
+#: root.tscn
+msgid "Test Scene Label"
+msgstr "Étiquette de la scène de test"
+
+msgid "Translatable Game"
+msgstr "Jeu traduisible"
