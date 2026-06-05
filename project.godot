@@ -17,6 +17,7 @@ config/icon="res://icon.svg"
 
 [internationalization]
 
+locale/translations=PackedStringArray("res://locales/fr.po", "res://locales/ja.po")
 locale/translations_pot_files=PackedStringArray("res://node_2d.gd", "res://root.tscn", "res://rust/src/rust_node.rs")
 
 [physics]
