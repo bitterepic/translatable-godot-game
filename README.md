@@ -34,6 +34,22 @@ godot --language fr
 
 `init-locales.sh` will create a new po file for a language from the pot file. It will have no previous history tracking of changes.
 
+## Summary
+
+The traditional gettext workflow is something similar to:
+
+1. Run `xgettext [sourcefiles] --output=locales/messages.pot to extract translatable strings from code.
+2. Run `msgmerge --update --backup=none [locale].po messages.pot` To update individual po languages with a history of changes.
+3. A translator resolves any marked issues or new strings in the po file.
+
+
+The Godot version of this workflow is to:
+
+1. Configure the files used for extraction
+2. Use the generate button to create a pot file
+2. Run `msgmerge --update --backup=none [locale].po messages.pot` To update individual po languages with a history of changes.
+3. A translator resolves any marked issues or new strings in the po file.
+
 ## References
 
 https://docs.godotengine.org/en/stable/tutorials/i18n/localization_using_gettext.html
