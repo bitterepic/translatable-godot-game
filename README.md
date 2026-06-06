@@ -38,7 +38,7 @@ godot --language fr
 
 The traditional gettext workflow is something similar to:
 
-1. Run `xgettext [sourcefiles] --output=locales/messages.pot to extract translatable strings from code.
+1. Run `xgettext [sourcefiles] --output=locales/messages.pot` to extract translatable strings from code.
 2. Run `msgmerge --update --backup=none [locale].po messages.pot` To update individual po languages with a history of changes.
 3. A translator resolves any marked issues or new strings in the po file.
 
